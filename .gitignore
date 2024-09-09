@@ -1,3 +1,10 @@
+# Local files
+mito_controlnet/
+mitodiff/
+mitodiff_rgb/
+ddpm-butterflies-128/
+output.png
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
