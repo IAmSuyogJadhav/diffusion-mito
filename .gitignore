@@ -4,6 +4,7 @@ mitodiff/
 mitodiff_rgb/
 ddpm-butterflies-128/
 output.png
+wandb/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
