@@ -1,0 +1,122 @@
+\documentclass{ReportStyle}
+\usepackage[utf8]{inputenc}
+\usepackage{lettrine}
+\usepackage{multirow}
+
+\usepackage[backend=biber,style=vancouver]{biblatex}
+\usepackage{csquotes}
+  
+\title{DEMO Template for INF-8606 Final Project Report Submission}
+\shorttitle{Network Visualization}
+\usepackage{authblk}
+
+\author{Author Name}
+
+\affil[1]{Affiliation}
+\affil[*]{E-mail any correspondence to: xyz@uit.no}
+
+  
+\shortauthor{Surname et al.}
+\elbioimpreceived{20 Sep 2024}  
+%\elbioimppublished{15 Jan 2025}
+%\elbioimpfirstpage{1}
+%\elbioimpvolume{1}
+%\elbioimpyear{2024}
+ 
+\addbibresource{demo.bib}
+
+\usepackage{array,booktabs}
+\newcolumntype{L}{@{}>{\kern\tabcolsep}l<{\kern\tabcolsep}}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The abstract should summarize the key points of the project, including the problem addressed, the methods used, and the main findings.
+It should be concise, typically no more than 250 words. The abstract should be written in one paragraph, without citations, and should not include any information not present in the paper.
+
+
+\keywords{GenerativeAI; Neural Network; Generative Models; Synthetic data}
+\end{abstract}
+
+\section{Introduction}
+This demo file is intended to serve as a ``starter file'' for the INF-8606 Generative AI for Health and Life Sciences Autumn School Final Report Submission produced under \LaTeX . We wish you the best of success. 
+
+The introduction should provide context for the paper, including background information, the motivation for the study, and the research problem. Clearly state the research objectives and questions. Provide an overview of the structure of the paper.
+
+
+\subsection{Guidelines}
+\begin{itemize}
+
+\item The title should be left-aligned, bold, and in a 24-point font. It should be concise, descriptive, and reflect the key aspects of the paper.
+\item Author name should be listed under the title, centered, and in a 12-point font. List the full names of the author (course participant only), followed by their affiliations.
+  \item Affiliations should include the department, institution, city, and country. Provide an email address for at least the corresponding author.
+  \item Include 3-5 keywords that reflect the main topics covered in the paper. Keywords should be separated by commas and listed in alphabetical order.
+  \item Use IEEE style for references, which includes numbering citations in the order they appear in the text. Ensure all references are complete and correctly formatted. For example, alphafold \cite{ruff2021alphafold}.
+  \item Figures and Tables: Place figures and tables after they are first referenced in the text. Use high-quality images and provide descriptive captions. Number figures and tables sequentially and ensure they are referenced correctly in the text.
+\end{itemize}
+
+\section{Research Background}
+Discuss previous research relevant to your topic. This should include a review of similar studies, highlighting their methods and findings. Explain how your work differs from or builds upon these studies.
+
+%#########################################
+
+\section{Method \& Implementation}
+Describe the methods used to conduct the research. This should include data sources, tools, models, and algorithms. Provide enough detail so that others can replicate your study.
+Use subsections to organize different aspects of the methodology, such as data collection, model description, performance, discussion, and concluding remarks/findings with future research direction.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.3\textwidth]{example-image} % Replace 'example-image' with the filename of your image
+    \caption{Sample Caption for the Figure}
+    \label{fig:sample_figure}
+\end{figure}
+
+\subsection{Subsection Heading Here}
+Subsection text here.
+
+\section{Results}
+Present the results of your study, using tables and figures where appropriate. Discuss the findings in relation to the research questions posed in the introduction. Avoid interpreting the results in this section; save that for the discussion.
+
+\begin{table}[h]
+\centering
+\caption{Sample Table of Items}
+\label{tab:sample_table}
+\begin{tabular}{|c|l|c|}
+\hline
+\textbf{Item No.} & \textbf{Description}        & \textbf{Price (\$)} \\ \hline
+1                 & Widget A                    & 10.00               \\ \hline
+2                 & Widget B                    & 15.50               \\ \hline
+3                 & Widget C                    & 7.25                \\ \hline
+4                 & Widget D                    & 22.30               \\ \hline
+5                 & Widget E                    & 9.99                \\ \hline
+\end{tabular}
+\end{table}
+
+
+
+
+\section{Summary and Discussion}
+Interpret the results and discuss their implications. How do they contribute to the field? What are the limitations of the study?
+Discuss how your findings compare to those of other studies.
+
+Suggest possible directions for future research.
+ 
+
+
+
+\section{Conclusion}
+Summarize the main findings of the paper.
+Restate the importance of the research and its contributions.
+
+Provide a closing statement on the potential impact or next steps in the research.
+
+\section*{Acknowledgments}
+
+%\newpage
+%\nocite{*}
+\printbibliography
+\end{document}

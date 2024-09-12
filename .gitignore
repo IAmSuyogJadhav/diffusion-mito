@@ -2,6 +2,7 @@
 mito_controlnet/
 mitodiff/
 mitodiff_rgb/
+mitodiff*/
 ddpm-butterflies-128/
 output.png
 wandb/
