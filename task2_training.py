@@ -1,3 +1,6 @@
+# Modified 01-09-2024 from Original Source at https://github.com/huggingface/diffusers/blob/main/examples/controlnet/train_controlnet.py
+# By Suyog Jadhav
+
 #!/usr/bin/env python
 # coding=utf-8
 # Copyright 2024 The HuggingFace Inc. team. All rights reserved.
