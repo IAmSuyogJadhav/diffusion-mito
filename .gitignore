@@ -6,6 +6,11 @@ mitodiff*/
 ddpm-butterflies-128/
 output.png
 wandb/
+*.zip
+*.pptx
+*.ipynb
+*.pdf
+models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
